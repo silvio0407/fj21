@@ -1,0 +1,17 @@
+use fj21;
+
+
+CREATE TABLE usuarios (
+id bigint not null auto_increment,
+login varchar(255) not null,
+senha varchar(15) not null,
+primary key (id)
+);
+
+create table tarefas (
+id BIGINT NOT NULL AUTO_INCREMENT,
+descricao VARCHAR(255),
+finalizado BOOLEAN,
+dataFinalizacao DATE,
+primary key (id)
+);
